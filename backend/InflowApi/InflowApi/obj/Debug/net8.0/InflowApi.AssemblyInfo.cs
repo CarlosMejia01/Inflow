@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InflowApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3354c5b60b8b78e551b27e07f407e0cd453e385b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab9207274a79cfa70508b2a40176523cf974e719")]
 [assembly: System.Reflection.AssemblyProductAttribute("InflowApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InflowApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

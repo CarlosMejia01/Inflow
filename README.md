@@ -5,10 +5,10 @@
 The "Inflow" project is a web application designed to manage inventories efficiently. It uses Angular on the frontend to offer a modern and responsive interface, leveraging features like Angular Material and Reactive Forms for a seamless user experience. On the backend, .NET Core is used along with Entity Framework Core and ASP.NET Core Web API, providing a robust and scalable architecture to handle product CRUD operations, including database migrations and initial data seeding. With these technologies, Inflow facilitates effective inventory management and tracking, ideal for businesses that require detailed and updated control of their assets..<br>
 
 <div >
-<img src="frontend\inflow-inventory\public\images\list-products.png" alt="list-products" width="190"/>
-<img src="frontend\inflow-inventory\public\images\creation-of-product.png" alt="creation-product" width="190"/>
-<img src="frontend\inflow-inventory\public\images\edition-of-the-product.png" alt="edition-product" width="190"/>
-<img src="frontend\inflow-inventory\public\images\info-of-the-product.png" alt="info-product" width="190"/>
+<img src="frontend\public\images\list-products.png" alt="list-products" width="190"/>
+<img src="frontend\public\images\creation-of-product.png" alt="creation-product" width="190"/>
+<img src="frontend\public\images\edition-of-the-product.png" alt="edition-product" width="190"/>
+<img src="frontend\public\images\info-of-the-product.png" alt="info-product" width="190"/>
 </div>
 
 ## Index
@@ -64,7 +64,6 @@ The "Inflow" project is a web application designed to manage inventories efficie
 3. Install frontend dependencies:
 
 ```bash
-    cd inflow-directory
     npm install
 ```
 4. Run the frontend app:
