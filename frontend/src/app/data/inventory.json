@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "box",
+    "type": "Testing 1",
+    "price": 12000
+  },
+  {
+    "id": 2,
+    "name": "object 2",
+    "type": "Testing 2",
+    "price": 14000
+  },
+  {
+    "id": 3,
+    "name": "object 3",
+    "type": "Testing 3",
+    "price": 1000
+  },
+  {
+    "id": 4,
+    "name": "object 4",
+    "type": "Testing 4",
+    "price": 16000
+  },
+  {
+    "id": 5,
+    "name": "object 5",
+    "type": "Testing 5",
+    "price": 26000
+  },
+  {
+    "id": 6,
+    "name": "object 6",
+    "type": "Testing 6",
+    "price": 18000
+  }
+]

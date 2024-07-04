@@ -1,0 +1,102 @@
+<div class="row mb-5">
+  <div class="col-8">
+    <div class="card">
+      <div class="card-header">
+        <h3>Edit product</h3>
+      </div>
+      <div class="card-body">
+        <form (ngSubmit)="onSubmit()" [formGroup]="editProductForm">
+          <div class="form-group col-12">
+            <label for="productName">Name of the product:</label>
+            <input type="text" id="productName" class="form-control" formControlName="productName">
+            <div *ngIf="editProductForm.get('productName')?.invalid && editProductForm.get('productName')?.touched">
+              <small class="error" *ngIf="editProductForm.get('productName')?.hasError('required')">Product name is
+                required.</small>
+              <small class="error" *ngIf="editProductForm.get('productName')?.hasError('minlength')">Product name must
+                be at least 3 characters long.</small>
+            </div>
+          </div>
+          <div class="form-group col-12">
+            <label for="productDescription">Description of the product:</label>
+            <textarea id="productDescription" class="form-control" formControlName="productDescription"></textarea>
+            <div
+              *ngIf="editProductForm.get('productDescription')?.invalid && editProductForm.get('productDescription')?.touched">
+              <small class="error" *ngIf="editProductForm.get('productDescription')?.hasError('required')">Product
+                description is required.</small>
+              <small class="error" *ngIf="editProductForm.get('productDescription')?.hasError('maxlength')">Product
+                description cannot exceed 500 characters.</small>
+            </div>
+          </div>
+          <div class="form-group col-12">
+            <label for="productPrice">Price:</label>
+            <input type="number" id="productPrice" class="form-control" formControlName="productPrice">
+            <div
+              *ngIf="editProductForm.get('productPrice')?.invalid && editProductForm.get('productPrice')?.touched">
+              <small class="error" *ngIf="editProductForm.get('productPrice')?.hasError('required')">Product price is
+                required.</small>
+              <small class="error" *ngIf="editProductForm.get('productPrice')?.hasError('min')">Product price cannot
+                be negative.</small>
+            </div>
+          </div>
+          <div class="form-group col-12">
+            <label for="expirationDate">Date of expiration:</label>
+            <input type="date" id="expirationDate" class="form-control" formControlName="expirationDate">
+            <div
+              *ngIf="editProductForm.get('expirationDate')?.invalid && editProductForm.get('expirationDate')?.touched">
+              <small class="error" *ngIf="editProductForm.get('expirationDate')?.hasError('required')">Expiration date
+                is required.</small>
+            </div>
+          </div>
+          <div class="form-group col-12">
+            <label for="stockQuantity">Stock quantity:</label>
+            <input type="number" id="stockQuantity" class="form-control" formControlName="stockQuantity">
+            <div
+              *ngIf="editProductForm.get('stockQuantity')?.invalid && editProductForm.get('stockQuantity')?.touched">
+              <small class="error" *ngIf="editProductForm.get('stockQuantity')?.hasError('required')">Stock quantity
+                is required.</small>
+              <small class="error" *ngIf="editProductForm.get('stockQuantity')?.hasError('min')">Stock quantity cannot
+                be negative.</small>
+            </div>
+          </div>
+          <div class="form-group col-12">
+            <label for="category">Category:</label>
+            <select class="ms-3" id="category" formControlName="category">
+              <option value="electronics">Electronics</option>
+              <option value="clothing">Clothing</option>
+              <option value="food">Food</option>
+            </select>
+            <div *ngIf="editProductForm.get('category')?.invalid && editProductForm.get('category')?.touched">
+              <small class="error" *ngIf="editProductForm.get('category')?.hasError('required')">Category is
+                required.</small>
+            </div>
+          </div>
+          <div class="form-group col-12">
+            <label for="available">Available:</label>
+            <input style="margin-left: 15px;" type="checkbox" id="available" class="form-check-label"
+              formControlName="available">
+          </div>
+          <div class="form-group col-12">
+            <div class="row">
+              <div class="col-md-auto pr-1">
+                <button type="submit" [disabled]="editProductForm.invalid" class="btn btn-warning btn-block mr-4"><i class="fa-solid fa-pen-to-square"></i> Update</button>
+              </div>
+              <div class="col-md-auto pr-1">
+                <button type="button" class="btn btn-primary btn-block"
+                (click)="onBack()"><i class="fa-solid fa-backward"></i> Back</button>
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card-header">
+      <h3>Property preview</h3>
+      <div>
+        <app-inventory-card [product]="propertyView" [hideIcons]="true"></app-inventory-card>
+      </div>
+    </div>
+  </div>
+</div>

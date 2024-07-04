@@ -1,0 +1,74 @@
+<div class="row shadow">
+  <div class="col-sm-4 p-0">
+    <div class="card">
+      <div class="card-img-wrapper">
+        <img src="/images/inventory-default.jpg" alt="box" class="card-img-top">
+        <!-- <img *ngIf="mainPhotoUrl" class="card-img-top" src="{{mainPhotoUrl}}"> -->
+        <!-- <img *ngIf="!mainPhotoUrl" class="card-img-top" src="assets/images/house_default.png"> -->
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">{{singleProduct?.name}}</h1>
+        <hr>
+        <div>
+          <strong>Available:</strong>
+          <p>{{singleProduct?.available}}</p>
+        </div>
+        <div>
+          <strong>Description: </strong>
+          <p>{{singleProduct?.description}}</p>
+        </div>
+
+      </div>
+      <div class="card-footer">
+        <div class="btn-group d-flex">
+          <button class="btn btn-danger" (click)="onDeleteProduct()"><i class="fa-solid fa-trash"></i> Delete product</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-8 p-0">
+    <div class="p-3">
+      <tabset>
+        <tab heading="Overview">
+          <h1>Overview</h1>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="heading">
+                <strong>Category: </strong>
+                <p>{{singleProduct?.category}}</p>
+              </div>
+
+              <div class="heading">
+                <strong>Expiration Date: </strong>
+                <p>{{singleProduct?.expirationDate}}</p>
+              </div>
+
+              <div class="heading">
+                <strong>Stock quantity: </strong>
+                <p>{{singleProduct?.stockQuantity}}</p>
+              </div>
+
+              <div class="heading">
+                <strong>Description</strong>
+                <p>{{singleProduct?.description}}</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="heading">
+                <strong>Price: </strong>
+                <p>{{singleProduct?.price}}</p>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="heading">
+                <button type="button" class="btn btn-primary btn-block"
+                (click)="onBack()"><i class="fa-solid fa-backward"></i> Back</button>
+              </div>
+            </div>
+          </div>
+        </tab>
+      </tabset>
+    </div>
+  </div>
+</div>

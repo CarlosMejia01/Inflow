@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="img-wrapper">
+    <img src="/images/inventory-default.jpg" class="card-img-top">
+  </div>
+  <div class="card-body p-2">
+    <h4><b>Name: </b>{{product?.nameProduct}}</h4>
+    <h4><b>Description: </b>{{product?.descriptionProduct}}</h4>
+    <h4><b>Price: </b>{{product?.priceProduct}}$</h4>
+    <div *ngIf="!hideIcons" class="buttons text-center d-flex justify-content-around my-3">
+      <button class="btn btn-warning btn-sm text-white" routerLink="/list-products/edit-product/{{product?.id}}"><i class="fa-solid fa-pen-to-square"></i> Edit product</button>
+      <button class="btn btn-info btn-sm" routerLink="/list-products/product-detail/{{product?.id}}"><i class="fa-sharp fa-solid fa-circle-info"></i> Info product</button>
+    </div>
+  </div>
+</div>

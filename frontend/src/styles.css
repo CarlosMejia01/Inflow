@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+
+button.swal2-confirm.btn.btn-success,
+button.swal2-confirm.btn.btn-danger,
+button.swal2-confirm.btn.btn-warning {
+  margin-right: 10px;
+}
