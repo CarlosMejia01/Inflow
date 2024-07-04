@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\angular-project\\backend\\InflowApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|d:\\angular-project\\backend\\inflowapi\\inflowapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|solutionrelative:inflowapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|d:\\angular-project\\backend\\inflowapi\\inflowapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|solutionrelative:inflowapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|d:\\angular-project\\backend\\inflowapi\\inflowapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|solutionrelative:inflowapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|d:\\angular-project\\backend\\inflowapi\\inflowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|solutionrelative:inflowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|d:\\angular-project\\backend\\inflowapi\\inflowapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|solutionrelative:inflowapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|d:\\angular-project\\backend\\inflowapi\\inflowapi\\data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9A96AC-89FD-4B50-8C10-19901DA50A29}|InflowApi\\InflowApi.csproj|solutionrelative:inflowapi\\data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\appsettings.json",
+              "RelativeDocumentMoniker": "InflowApi\\appsettings.json",
+              "ToolTip": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\appsettings.json",
+              "RelativeToolTip": "InflowApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-04T04:25:38.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "InflowApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "InflowApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-04T04:25:27.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "InflowApi\\Models\\Product.cs",
+              "ToolTip": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\Models\\Product.cs",
+              "RelativeToolTip": "InflowApi\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T01:00:20.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "InflowApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "InflowApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T22:57:45.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\Program.cs",
+              "RelativeDocumentMoniker": "InflowApi\\Program.cs",
+              "ToolTip": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\Program.cs",
+              "RelativeToolTip": "InflowApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T22:36:22.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductContext.cs",
+              "DocumentMoniker": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\Data\\ProductContext.cs",
+              "RelativeDocumentMoniker": "InflowApi\\Data\\ProductContext.cs",
+              "ToolTip": "D:\\angular-project\\backend\\InflowApi\\InflowApi\\Data\\ProductContext.cs",
+              "RelativeToolTip": "InflowApi\\Data\\ProductContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T22:16:32.079Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

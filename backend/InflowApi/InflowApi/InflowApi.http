@@ -1,0 +1,6 @@
+@InflowApi_HostAddress = http://localhost:5231
+
+GET {{InflowApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
